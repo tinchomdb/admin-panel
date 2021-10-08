@@ -1,0 +1,53 @@
+.widgetLg {
+  flex: 2;
+  padding: 20px;
+  box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.06);
+}
+
+.widgetLgTable {
+  width: 100%;
+  border-spacing: 20px;
+}
+
+.widgetLgTh {
+  text-align: left;
+}
+
+.widgetLgImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.widgetLgUser {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.widgetLgDate,
+.widgetLgAmount {
+  font-weight: 300;
+}
+
+.widgetLgButton {
+  padding: 7px 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.widgetLgButton.Approved {
+  background-color: #e5faf2;
+}
+
+.widgetLgButton.Declined {
+  background-color: #fff0f1;
+}
+
+.widgetLgButton.Pending {
+  background-color: #ebf1fe;
+}
