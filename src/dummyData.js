@@ -49,7 +49,34 @@ export const userData = [
   },
 ];
 
-export const rows = [
+export const productData = [
+  {
+    name: "Jul",
+    sales: 1600,
+  },
+  {
+    name: "Aug",
+    sales: 3400,
+  },
+  {
+    name: "Sep",
+    sales: 500,
+  },
+  {
+    name: "Oct",
+    sales: 3700,
+  },
+  {
+    name: "Nov",
+    sales: 1800,
+  },
+  {
+    name: "Dec",
+    sales: 2700,
+  },
+];
+
+export const userRows = [
   {
     id: 1,
     username: "Jon Snow",
@@ -103,5 +130,48 @@ export const rows = [
     email: "melisandre@gmail.com",
     status: "active",
     transaction: "$200",
+  },
+];
+
+export const productRows = [
+  {
+    id: 1,
+    name: "Playstation 5",
+    img: "https://www.nintendocostarica.com/web/image/product.image/45330/image_128/Consola%20Sony%20PlayStation%205?unique=a8a2924",
+    stock: 23,
+    status: "active",
+    price: "$400",
+  },
+  {
+    id: 2,
+    name: "Nintendo Switch",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWEcKslsFm_VSNDYKL8TB4J0LBx8E3WTKRJQ&usqp=CAU",
+    stock: 15,
+    status: "active",
+    price: "$300",
+  },
+  {
+    id: 3,
+    name: "Xbox Series X",
+    img: "https://www.mallasefiserv.com/web/image/product.product/14695/image_128/%5BINN03941%5D%20Consola%20Xbox%20Series%20X?unique=b3b51cb",
+    stock: 48,
+    status: "active",
+    price: "$500",
+  },
+  {
+    id: 4,
+    name: "Xbox Series S",
+    img: "https://sm.ign.com/t/ign_es/cover/x/xbox-serie/xbox-series-s_yk5q.128.jpg",
+    stock: 370,
+    status: "active",
+    price: "$300",
+  },
+  {
+    id: 5,
+    name: "Gaming PC",
+    img: "https://www.pccompu.com.uy/imgs/productos/productos31_35859.jpg",
+    stock: 20,
+    status: "active",
+    price: "$1000",
   },
 ];

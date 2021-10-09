@@ -10,7 +10,9 @@ function Home() {
   return (
     <div className="home">
       <FeaturedInfo />
-      <Chart data={userData} title="Sales Analytics" dataKey="sales" />
+      <div className="chartContainer">
+        <Chart data={userData} title="Sales Analytics" dataKey="sales" />
+      </div>
       <div className="homeWidget">
         <WidgetSm />
         <WidgetLg />

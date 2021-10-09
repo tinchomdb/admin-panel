@@ -6,7 +6,17 @@ function FeaturedInfo() {
   return (
     <div className="featured">
       <div className="featuredItem">
-        <span className="featuredTitle">Revenue</span>
+        <h3 className="featuredTitle">Revenue</h3>
+        <div className="featuredMoneyContainer">
+          <span className="featuredMoney">$3,578</span>
+          <span className="featuredMoneyRate">
+            -2.5 <ArrowDownward className="featuredIcon negative" />
+          </span>
+        </div>
+        <span className="featuredSub">Compared to last month</span>
+      </div>
+      <div className="featuredItem">
+        <h3 className="featuredTitle">Sales</h3>
         <div className="featuredMoneyContainer">
           <span className="featuredMoney">$2,415</span>
           <span className="featuredMoneyRate">
@@ -16,19 +26,9 @@ function FeaturedInfo() {
         <span className="featuredSub">Compared to last month</span>
       </div>
       <div className="featuredItem">
-        <span className="featuredTitle">Sales</span>
+        <h3 className="featuredTitle">Cost</h3>
         <div className="featuredMoneyContainer">
-          <span className="featuredMoney">$2,415</span>
-          <span className="featuredMoneyRate">
-            -11.4 <ArrowDownward className="featuredIcon negative" />
-          </span>
-        </div>
-        <span className="featuredSub">Compared to last month</span>
-      </div>
-      <div className="featuredItem">
-        <span className="featuredTitle">Cost</span>
-        <div className="featuredMoneyContainer">
-          <span className="featuredMoney">$2,415</span>
+          <span className="featuredMoney">$5,766</span>
           <span className="featuredMoneyRate">
             3.6 <ArrowUpward className="featuredIcon" />
           </span>
