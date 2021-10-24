@@ -12,7 +12,6 @@ import {
 } from "recharts";
 
 function Chart({ data, title, dataKey }) {
-  console.log();
   return (
     <div className="chart">
       <h3 className="chartTitle">{title}</h3>

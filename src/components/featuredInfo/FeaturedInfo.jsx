@@ -1,8 +1,11 @@
 import { ArrowDownward, ArrowUpward } from "@material-ui/icons";
-import React from "react";
+import React, { useState } from "react";
 import "./FeaturedInfo.css";
 
 function FeaturedInfo() {
+
+  const [income, setIncome] = useState([])
+
   return (
     <div className="featured">
       <div className="featuredItem">

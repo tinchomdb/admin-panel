@@ -40,14 +40,14 @@
   border-radius: 10px;
 }
 
-.widgetLgButton.Approved {
+.widgetLgButton.approved {
   background-color: #e5faf2;
 }
 
-.widgetLgButton.Declined {
+.widgetLgButton.declined {
   background-color: #fff0f1;
 }
 
-.widgetLgButton.Pending {
+.widgetLgButton.pending {
   background-color: #ebf1fe;
 }
