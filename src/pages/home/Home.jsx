@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Chart from "../../components/chart/Chart";
 import FeaturedInfo from "../../components/featuredInfo/FeaturedInfo";
 import "./Home.css";
@@ -7,23 +7,23 @@ import WidgetLg from "../../components/WidgetLg/WidgetLg";
 import WidgetSm from "../../components/widgetSm/WidgetSm";
 import { userRequest } from "../../redux/requestMethods";
 
+const MONTHS = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
+];
+
 function Home() {
   const [userStats, setUserStats] = useState([]);
-
-  const MONTHS = useMemo(() => [
-    "Jan",
-    "Feb",
-    "Mar",
-    "Apr",
-    "May",
-    "Jun",
-    "Jul",
-    "Aug",
-    "Sep",
-    "Oct",
-    "Nov",
-    "Dec",
-  ]);
 
   useEffect(() => {
     const getStats = async () => {
@@ -38,7 +38,7 @@ function Home() {
       } catch {}
     };
     getStats();
-  }, [MONTHS]);
+  }, []);
 
   return (
     <div className="home">

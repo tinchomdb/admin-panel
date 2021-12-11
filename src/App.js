@@ -30,7 +30,7 @@ function App() {
     }
   } */
 
-  const admin = useSelector((state) => state.user.currentUser.isAdmin);
+  const admin = useSelector((state) => state.user.currentUser?.isAdmin);
 
   return (
     <Router className="App">
